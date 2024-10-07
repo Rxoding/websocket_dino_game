@@ -58,7 +58,7 @@ $ yarn start
 # The server will initialize in the <http://localhost:3000>
 ```
 
-## :tree: File Tree
+## :open_file_folder: File Tree
 
 ```
 websocket_game
