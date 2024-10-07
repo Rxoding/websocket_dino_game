@@ -3,43 +3,16 @@
 
 &#xa0;
 
-  <!-- <a href="https://websocket_game.netlify.app">Demo</a> -->
 </div>
 
 <h1 align="center">Websocket_game</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{YOUR_GITHUB_USERNAME}}/websocket_game?color=56BEB8">
-
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{YOUR_GITHUB_USERNAME}}/websocket_game?color=56BEB8">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/{{YOUR_GITHUB_USERNAME}}/websocket_game?color=56BEB8">
-
-  <img alt="License" src="https://img.shields.io/github/license/{{YOUR_GITHUB_USERNAME}}/websocket_game?color=56BEB8">
-
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/{{YOUR_GITHUB_USERNAME}}/websocket_game?color=56BEB8" /> -->
-
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/{{YOUR_GITHUB_USERNAME}}/websocket_game?color=56BEB8" /> -->
-
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/{{YOUR_GITHUB_USERNAME}}/websocket_game?color=56BEB8" /> -->
-</p>
-
-<!-- Status -->
-
-<!-- <h4 align="center">
-	🚧  Websocket_game 🚀 Under construction...  🚧
-</h4>
-
-<hr> -->
-
-<p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
+  <a href="#sparkles-기획내용">기획내용</a> &#xa0; | &#xa0;
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
-  <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">Author</a>
+  <a href="#tree-filetree">File Tree</a> &#xa0; | &#xa0;
 </p>
 
 <br>
@@ -83,6 +56,72 @@ $ yarn
 $ yarn start
 
 # The server will initialize in the <http://localhost:3000>
+```
+
+## :tree: File Tree
+
+```
+websocket_game
+├─ .gitattributes
+├─ .gitignore
+├─ .prettierrc
+├─ assets
+│  ├─ item.json
+│  ├─ item_unlock.json
+│  └─ stage.json
+├─ package.json
+├─ public
+│  ├─ .DS_Store
+│  ├─ CactiController.js
+│  ├─ Cactus.js
+│  ├─ Constants.js
+│  ├─ Ground.js
+│  ├─ images
+│  │  ├─ cactus_1.png
+│  │  ├─ cactus_2.png
+│  │  ├─ cactus_3.png
+│  │  ├─ dino_run1.png
+│  │  ├─ dino_run2.png
+│  │  ├─ ground.png
+│  │  ├─ happy_rtan.gif
+│  │  ├─ items
+│  │  │  ├─ pokeball_cyan.png
+│  │  │  ├─ pokeball_orange.png
+│  │  │  ├─ pokeball_pink.png
+│  │  │  ├─ pokeball_purple.png
+│  │  │  ├─ pokeball_red.png
+│  │  │  └─ pokeball_yellow.png
+│  │  ├─ sprite_sheet.png
+│  │  ├─ standing_still.png
+│  │  └─ standing_still_eye_closed.png
+│  ├─ index.html
+│  ├─ index.js
+│  ├─ Item.js
+│  ├─ ItemController.js
+│  ├─ Player.js
+│  ├─ Score.js
+│  ├─ Socket.js
+│  └─ style.css
+├─ README.md
+├─ src
+│  ├─ app.js
+│  ├─ constansts.js
+│  ├─ handlers
+│  │  ├─ game.handler.js
+│  │  ├─ handlerMapping.js
+│  │  ├─ helper.js
+│  │  ├─ item.handler.js
+│  │  ├─ register.handler.js
+│  │  └─ stage.handler.js
+│  ├─ init
+│  │  ├─ assets.js
+│  │  └─ socket.js
+│  └─ models
+│     ├─ item.model.js
+│     ├─ stage.model.js
+│     └─ user.model.js
+└─ yarn.lock
+
 ```
 
 <a href="#top">Back to top</a>
