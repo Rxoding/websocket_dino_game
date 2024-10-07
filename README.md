@@ -6,15 +6,6 @@
 </div>
 
 <h1 align="center">Websocket_game</h1>
-
-<p align="center">
-  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-기획내용">기획내용</a> &#xa0; | &#xa0;
-  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
-  <a href="#open_file_folder-filetree">File Tree</a> &#xa0; | &#xa0;
-</p>
-
 <br>
 
 ## :dart: About
