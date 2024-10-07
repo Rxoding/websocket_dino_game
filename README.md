@@ -46,23 +46,22 @@
 
 ## :dart: About
 
-Describe your project
+웹소켓을 사용해 크롬다이노 공룡게임 만들기
 
-## :sparkles: Features
+## :sparkles: 기획내용
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+:heavy_check_mark: 시간에 따른 점수 획득\
+:heavy_check_mark: 스테이지 구분\
+:heavy_check_mark: 스테이지에 따른 점수 획득 구분\
+:heavy_check_mark: 아이템 획득 시 점수 획득\
+:heavy_check_mark: 스테이지 별 아이템 생성 구분\
+:heavy_check_mark: 아이템 별 획득 점수 구분
 
 ## :rocket: Technologies
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [JavaScript]
 
 ## :white_check_mark: Requirements
 
@@ -72,10 +71,10 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 
 ```bash
 # Clone this project
-$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/websocket_game
+$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/websocket_dino_game
 
 # Access
-$ cd websocket_game
+$ cd websocket_dino_game
 
 # Install dependencies
 $ yarn
@@ -85,13 +84,5 @@ $ yarn start
 
 # The server will initialize in the <http://localhost:3000>
 ```
-
-## :memo: License
-
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
-
-Made with :heart: by <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{YOUR_NAME}}</a>
-
-&#xa0;
 
 <a href="#top">Back to top</a>
